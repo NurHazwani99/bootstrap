@@ -1,2 +1,2 @@
 # bootstrap
-Implement bootstrap in webpagr
+Implement bootstrap in webpage
