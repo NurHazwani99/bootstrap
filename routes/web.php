@@ -14,8 +14,26 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome2');
 });
+
+Route::get('/forest', function () {
+    return view('forest');
+});
+
+Route::get('/hotspring', function () {
+    return view('hotspring');
+});
+
+Route::get('/beach', function () {
+    return view('beach');
+});
+
+Route::get('/contactus', function () {
+    return view('contactus');
+});
+
+
 
 Auth::routes();
 
