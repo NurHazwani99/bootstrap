@@ -2,14 +2,18 @@
 
 @section("content")
 
-@component("components.breadcrumbs")
-@endcomponent
-<div class="container corner">
-        
+<nav class="container">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url('/') }}">Home</a></li>
+        <li class="breadcrumb-item active">Contact Us</li>
+    </ol>
+</nav>
+<div class="container card corner">
+
         <br>
 
         <b><h1 class="center">Any Enquiries? Contact Us!</h1></b>
-        
+
         <form>
 
             <div class="form-group">
@@ -17,11 +21,11 @@
                 <input type="text" class="form-control" id="text" placeholder="Eg: Abu Bakar">
             </div>
             <div class="form-group">
-                <label for="email">Email</label> 
+                <label for="email">Email</label>
                 <input type="email" class="form-control" width="48" id="email" placeholder="Eg: name@example.com">
             </div>
             <div>
-                <label for="phone">Phone Number</label> 
+                <label for="phone">Phone Number</label>
                 <input type="number" class="form-control" id="phone" placeholder="Eg: 123466789">
             </div>
             <br>
@@ -37,3 +41,4 @@
         </div>
 
 @endsection
+

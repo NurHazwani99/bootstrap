@@ -18,7 +18,7 @@
             ul.nav-pills {
                 position: fixed;
             }
-            
+
             div.col-8 div {
                 height: 300px;
             }
@@ -56,7 +56,10 @@
                 color: #0AA2C0;
             }
         </style>
-    
+
+    @component("components.breadcrumbs")
+    @endcomponent
+
         <div id="demo" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
@@ -69,25 +72,25 @@
         <!-- The slideshow -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="/img/1.jpg" alt="Los Angeles" width="1000" height="500">
+                <img class="object-fit-cover" src="/img/1.jpg" width="1100" >
                 <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
+                    <h3>Pellentesque nunc</h3>
                     <p>We had such a great time in LA!</p>
-                </div> 
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/2.jpg" alt="Chicago" width="700" height="500">
+                <img class="object-fit-cover" src="/img/2.jpg" width="1100" >
                 <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
+                    <h3>Pellentesque nunc</h3>
                     <p>We had such a great time in LA!</p>
-                </div> 
+                </div>
             </div>
             <div class="carousel-item">
-                <img src="/img/3.jpg" alt="New York" width="700" height="500">
+                <img class="object-fit-cover" src="/img/3.jpg"  width="1100" >
                 <div class="carousel-caption">
-                    <h3>Los Angeles</h3>
+                    <h3>Pellentesque nunc</h3>
                     <p>We had such a great time in LA!</p>
-                </div> 
+                </div>
             </div>
         </div>
 
@@ -123,16 +126,18 @@
             <div class="col-sm-9 ">
             <div id="why" style="height:50px;">
             </div>
-            <div class="">    
+            <div class="">
                 <h1>Why Beach?</h1>
                 <br>
                 <img src="/img/2.jpg" class="img-thumbnail center" alt="Chicago" width="700" height="500">
                 <br><br>
                 <p class="contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo odio adipiscing mauris, aliquam dictumst ultrices ultricies. Risus laoreet vitae pretium amet malesuada id pretium. Nam viverra nunc at facilisis. Urna a odio facilisis ut aliquet vitae mi elementum dictum. Enim neque non odio nisl dolor urna scelerisque. Ac sed arcu neque massa tempor. Consectetur et, dolor id cursus dapibus convallis posuere vulputate nibh. In suspendisse ac, pellentesque pellentesque sed urna. Consequat porttitor molestie id nisl egestas scelerisque libero imperdiet. Arcu varius tortor, eu dolor nisl faucibus donec sapien et. Lacinia sed curabitur odio vitae sed sed quam tincidunt. Suspendisse posuere pellentesque augue nisl nam vel lectus. Odio eros, scelerisque nullam et. Tristique feugiat risus ullamcorper morbi sed. Odio id ultrices nibh feugiat aliquam. Quis sed elementum, porttitor etiam dui. Ornare vestibulum suscipit et metus dignissim augue vestibulum tristique. Nunc, purus dui dignissim mauris convallis sit pretium. Enim, sed gravida turpis in pellentesque. Vestibulum malesuada pellentesque libero, eget suscipit massa neque laoreet. Libero amet sit semper tempus. Ultrices rutrum amet gravida faucibus dolor, in ipsum leo. </p>
-                <p class="contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo odio adipiscing mauris, aliquam dictumst ultrices ultricies. Risus laoreet vitae pretium amet malesuada id pretium. Nam viverra nunc at facilisis. Urna a odio facilisis ut aliquet vitae mi elementum dictum. Enim neque non odio nisl dolor urna scelerisque. Ac sed arcu neque massa tempor. Consectetur et, dolor id cursus dapibus convallis posuere vulputate nibh. In suspendisse ac, pellentesque pellentesque sed urna. Consequat porttitor molestie id nisl egestas scelerisque libero imperdiet. Arcu varius tortor, eu dolor nisl faucibus donec sapien et. Lacinia sed curabitur odio vitae sed sed quam tincidunt. Suspendisse posuere pellentesque augue nisl nam vel lectus. Odio eros, scelerisque nullam et. Tristique feugiat risus ullamcorper morbi sed. Odio id ultrices nibh feugiat aliquam. Quis sed elementum, porttitor etiam dui. Ornare vestibulum suscipit et metus dignissim augue vestibulum tristique. Nunc, purus dui dignissim mauris convallis sit pretium. Enim, sed gravida turpis in pellentesque. Vestibulum malesuada pellentesque libero, eget suscipit massa neque laoreet. Libero amet sit semper tempus. Ultrices rutrum amet gravida faucibus dolor, in ipsum leo. </p>   
+                <p class="contents">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo odio adipiscing mauris, aliquam dictumst ultrices ultricies. Risus laoreet vitae pretium amet malesuada id pretium. Nam viverra nunc at facilisis. Urna a odio facilisis ut aliquet vitae mi elementum dictum. Enim neque non odio nisl dolor urna scelerisque. Ac sed arcu neque massa tempor. Consectetur et, dolor id cursus dapibus convallis posuere vulputate nibh. In suspendisse ac, pellentesque pellentesque sed urna. Consequat porttitor molestie id nisl egestas scelerisque libero imperdiet. Arcu varius tortor, eu dolor nisl faucibus donec sapien et. Lacinia sed curabitur odio vitae sed sed quam tincidunt. Suspendisse posuere pellentesque augue nisl nam vel lectus. Odio eros, scelerisque nullam et. Tristique feugiat risus ullamcorper morbi sed. Odio id ultrices nibh feugiat aliquam. Quis sed elementum, porttitor etiam dui. Ornare vestibulum suscipit et metus dignissim augue vestibulum tristique. Nunc, purus dui dignissim mauris convallis sit pretium. Enim, sed gravida turpis in pellentesque. Vestibulum malesuada pellentesque libero, eget suscipit massa neque laoreet. Libero amet sit semper tempus. Ultrices rutrum amet gravida faucibus dolor, in ipsum leo. </p>
             </div>
             <br><br>
-            <div id="things" class=""> 
+            <div id="things" style="height:50px;">
+            </div>
+            <div class="">
                 <h1>Things to do</h1>
                 <br>
                 <b>
@@ -145,9 +150,11 @@
                     <li>Coca Cola - A carbonated soft drink produced by The Coca-Cola Company. The drink's name refers to two of its original ingredients, which were kola nuts (a source of caffeine) and coca leaves</li>
                 </ul>
                 </b>
-            </div>        
+            </div>
             <br><br>
-            <div id="popular" class="">         
+            <div id="popular" style="height:50px;">
+            </div>
+            <div>
                 <h1>Popular Spots in Malaysia</h1>
                 <br>
                 <b>
@@ -162,7 +169,9 @@
                 </b>
             </div>
             <br><br>
-            <div id="gallery" class="">         
+            <div id="gallery" style="height:50px;">
+            </div>
+            <div class="">
                 <h1>Gallery</h1>
                 <br>
                 <section id="gallery">

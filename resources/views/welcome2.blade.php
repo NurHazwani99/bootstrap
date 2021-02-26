@@ -18,21 +18,21 @@
         <div class="carousel-caption">
             <h3>Pellentesque nunc</h3>
             <p>We had such a great time in LA!</p>
-        </div> 
+        </div>
     </div>
     <div class="carousel-item">
         <img class="object-fit-cover" src="/img/2.jpg" width="1100" >
         <div class="carousel-caption">
             <h3>Pellentesque nunc</h3>
             <p>We had such a great time in LA!</p>
-        </div> 
+        </div>
     </div>
     <div class="carousel-item">
         <img class="object-fit-cover" src="/img/3.jpg"  width="1100" >
         <div class="carousel-caption">
             <h3>Pellentesque nunc</h3>
             <p>We had such a great time in LA!</p>
-        </div> 
+        </div>
     </div>
 </div>
 
@@ -67,7 +67,7 @@
             <div class="card">
                 <img src="/img/card2.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title center">Forest</h5>
+                    <h5 class="card-title">Forest</h5>
                     <p class="card-text">Dolor et, pellentesque adipiscing malesuada praesent quis. Sem quis interdum et non. Lacus consectetur in euismod senectus tempor at dolor egestas. Sit iaculis cras iaculis laciniavel lorem odio.</p>
                     <a href="{{ url('forest') }}" class="btn btn-outline-success btn-sm">Read More</a>
                 </div>
@@ -87,7 +87,7 @@
     </div>
 </div>
 </section>
-    
+
 <br><br><br>
 
 </div>
