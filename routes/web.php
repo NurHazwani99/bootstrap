@@ -33,7 +33,7 @@ Route::get('/contactus', function () {
     return view('contactus');
 });
 
-
+Route::view('easyparcel','easyparcel');
 
 Auth::routes();
 

@@ -82,6 +82,8 @@
             .carousel-caption{
                 color: black;
             }
+
+
         </style>
     </head>
     <body data-spy="scroll" data-target="#myScrollspy">

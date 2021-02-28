@@ -1,4 +1,7 @@
 @extends("layouts.master")
+<?php
+//dd(Request::segments());
+?>
 
 @section("content")
 
@@ -58,6 +61,10 @@
         </style>
 
     @component("components.breadcrumbs")
+        @slot("second","Beach")
+        @slot("second_url","/beach")
+        @slot("third","Forest")
+        @slot("third_url","/forest")
     @endcomponent
 
         <div id="demo" class="carousel slide" data-ride="carousel">
